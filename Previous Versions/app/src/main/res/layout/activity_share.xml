@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/websiteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_uri"/>
+
+    <Button
+        android:id="@+id/openWebsiteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_uri"
+       />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_loc"/>
+
+    <Button
+        android:id="@+id/openLocationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_loc"
+        />
+
+    <EditText
+        android:id="@+id/shareEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_share"/>
+
+    <Button
+        android:id="@+id/shareTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_share"/>
+
+    <EditText
+        android:id="@+id/findEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_find_shop"/>
+
+    <Button
+        android:id="@+id/findTextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/button_find_shop"/>
+
+</LinearLayout>
